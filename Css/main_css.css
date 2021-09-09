@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+}
+
+.main {
+  background: #FF7733;
+  color: black;
+  font-family: Ubuntu, serif;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 86px;
+  letter-spacing: 0;
+  text-align: left;
+  width: 1920px;
+  height: 3240px;
+}
