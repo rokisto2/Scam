@@ -1,29 +1,12 @@
 body{
   margin: 0px;
 }
-.nav{
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 46px;
-  outline: none;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-}
-.main{
-  background: #FF7733;
-  color: black;
-  font-family: Ubuntu, serif;
-  font-size: 75px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 86px;
-  letter-spacing: 0;
-  text-align: left;
-  width: 1519px;
+
+.head{
+  width: 1920px;
   height: 3240px;
+
+  background: #000099;
 
   .header{
 
@@ -33,23 +16,19 @@ body{
 
     justify-content: space-between;
     .logo{
+      width: 120px;
+      height: 57px;
 
-      font-family: Ubuntu, serif;
+      font-family: Ubuntu;
       font-style: normal;
       font-weight: normal;
       font-size: 50px;
       line-height: 57px;
-      margin-left: 231px;
-      margin-top: 62px;
-    }
 
-    .navs{
-      margin: 0;
-      margin-top: 71px;
-      display: flex;
-      justify-content: space-evenly;
-      height: 100%;
+      color: #E6F2FF;
 
     }
+
+
   }
 }
