@@ -4,7 +4,9 @@ body{
 
 .head{
 
-
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   background: #000099;
   padding-top: 68px;
@@ -55,5 +57,49 @@ body{
       }
     }
 
+  }
+  .info-1{
+    margin-top: 31px;
+    margin-bottom: 61px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+    .texts{
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      jjustify-content: space-between;
+      align-items: flex-start;
+      height: 431px;
+    }
+    .text-1{
+      width: 768px;
+      height: 86px;
+
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 75px;
+      line-height: 86px;
+
+      color: #E6F2FF;
+    }
+    .text-2{
+      width: 531px;
+      height: 171px;
+
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 50px;
+      line-height: 57px;
+
+      color: #00004D;
+    }
   }
 }
