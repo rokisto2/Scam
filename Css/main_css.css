@@ -152,6 +152,7 @@ body {
   font-weight: normal;
   font-size: 75px;
   line-height: 86px;
+  margin-bottom: 175px;
   color: #E6F2FF;
 }
 .about_us .about_the_service li {
@@ -160,4 +161,60 @@ body {
 .about_us .card {
   margin-top: 175px;
   margin-bottom: 175px;
+}
+
+.Games {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #000099;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 75px;
+  line-height: 86px;
+  color: #E6F2FF;
+}
+.Games .menu_game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 150%;
+  margin-bottom: 500px;
+}
+.Games .menu_game .game {
+  color: #00004D;
+  text-decoration: none;
+  width: 350px;
+  height: 650px;
+  margin-bottom: 50px;
+  background: #E6F2FF;
+  border-radius: 50px;
 }
