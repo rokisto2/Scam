@@ -3,11 +3,13 @@ body {
 }
 
 .head {
-  width: 1920px;
-  height: 3240px;
   background: #000099;
+  padding-top: 68px;
 }
 .head .header {
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,9 +18,11 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .head .header .logo {
   width: 120px;
@@ -28,5 +32,31 @@ body {
   font-weight: normal;
   font-size: 50px;
   line-height: 57px;
+  color: #E6F2FF;
+}
+.head .header .navs {
+  color: #E6F2FF;
+  width: 930px;
+  height: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100%;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+}
+.head .header .navs .nav {
+  text-decoration: none;
   color: #E6F2FF;
 }

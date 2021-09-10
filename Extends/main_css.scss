@@ -3,18 +3,21 @@ body{
 }
 
 .head{
-  width: 1920px;
-  height: 3240px;
+
+
 
   background: #000099;
-
+  padding-top: 68px;
   .header{
-
+    width: 100%;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     height: 100%;
 
-    justify-content: space-between;
+
+    justify-content: space-around;
+    align-items: center;
     .logo{
       width: 120px;
       height: 57px;
@@ -27,8 +30,30 @@ body{
 
       color: #E6F2FF;
 
-    }
 
+    }
+    .navs{
+      color: #E6F2FF;
+      width: 930px;
+      height: 46px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      height: 100%;
+
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 46px;
+
+      .nav{
+        text-decoration: none;
+        color: #E6F2FF;
+      }
+    }
 
   }
 }
