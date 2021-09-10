@@ -181,7 +181,10 @@ body{
   height: 100%;
   padding-top: 20px;
   padding-bottom: 100px;
-  padding-left: 231px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   a{
     margin-right: 50px;
   }
