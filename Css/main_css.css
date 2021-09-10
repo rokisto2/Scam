@@ -218,3 +218,15 @@ body {
   background: #E6F2FF;
   border-radius: 50px;
 }
+
+.footer {
+  background-color: #00004D;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-left: 231px;
+}
+.footer a {
+  margin-right: 50px;
+}
